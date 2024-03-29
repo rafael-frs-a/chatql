@@ -1,0 +1,10 @@
+# Production packages
+beanie
+strawberry-graphql[fastapi]
+uvicorn[standard]
+pydantic[email]
+python-dotenv
+validators
+pyjwt
+httpx
+broadcaster

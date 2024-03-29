@@ -1,0 +1,21 @@
+# Production packages
+beanie
+strawberry-graphql[fastapi]
+uvicorn[standard]
+pydantic[email]
+python-dotenv
+validators
+pyjwt
+httpx
+broadcaster
+
+# Test packages
+black
+flake8
+mypy
+bandit
+pytest
+pytest-cov
+pytest-asyncio
+pip-tools
+ipython
