@@ -8,6 +8,8 @@ It consists of a demo GraphQL messaging app that supports the following actions:
   - Pagination and filters;
   - Subscription.
 
+![image](https://github.com/rafael-frs-a/chatql/assets/76019940/7f73aea2-db9c-4ea6-9292-c7469298df23)
+
 # Stack
 
 The project uses the following technologies:
