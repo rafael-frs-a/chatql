@@ -1,6 +1,6 @@
 # About
 
-It consists of a demo GraphQL messaging app that supports the following actions:
+This project consists of a demo GraphQL messaging app that supports the following actions:
 - Create and authenticate user;
 - Create and fetch channels;
 - Create messages;

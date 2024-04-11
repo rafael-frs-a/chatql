@@ -97,10 +97,9 @@ class Mutation:
 class Subscription:
     @strawberry.subscription
     @login_required
-    # TODO: add test
     async def new_message(
         self, info: Info[dict[t.Any, t.Any], t.Any]
-    ) -> t.AsyncGenerator[message_schemas.Message, None]:  # pragma: no cover
+    ) -> t.AsyncGenerator[message_schemas.Message, None]:
         store = stores.MessageStore()
         user_id = info.context["userId"]
 
